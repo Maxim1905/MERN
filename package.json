@@ -1,0 +1,23 @@
+{
+  "name": "mern-course",
+  "version": "1.0.0",
+  "description": "MERN stack",
+  "main": "app.js",
+  "scripts": {
+    "start": "node.js app.js"
+  },
+  "keywords": [
+    "mern",
+    "react"
+  ],
+  "author": "Isaev Maxim <isaevmaxim1905@gmai.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.5"
+  }
+}
