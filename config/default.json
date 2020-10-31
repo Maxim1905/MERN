@@ -1,0 +1,5 @@
+{
+  "port": 5000,
+  "mongoUri": "mongodb+srv://maxim:americano1900@cluster0.c0equ.azure.mongodb.net/app?retryWrites=true&w=majority",
+  "jwtSecret": "isaevMaxim"
+}
