@@ -9,6 +9,7 @@
     "materialize-css": "^1.0.0-rc.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-materialize": "^3.9.3",
     "react-scripts": "4.0.0",
     "web-vitals": "^0.2.4"
   },
@@ -35,5 +36,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "ember-cli-materialize": "^0.22.0"
   }
 }
