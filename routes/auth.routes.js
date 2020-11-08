@@ -29,8 +29,10 @@ router.post(
         });
       }
 
-      const { emal, password } = req.body;
+      const { email, password } = req.body;
+
       const candidate = await User.findOne({ email });
+
       if (candidate) {
         return res
           .status(400)
