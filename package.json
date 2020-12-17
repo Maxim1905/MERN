@@ -1,0 +1,36 @@
+{
+  "name": "mern-course",
+  "version": "1.0.0",
+  "description": "MERN stack",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maxim1905/MERN.git"
+  },
+  "keywords": [
+    "mongoDB",
+    "react",
+    "express",
+    "node.js"
+  ],
+  "author": "Isaev Maxim <isaevmaxim1905@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maxim1905/MERN/issues"
+  },
+  "homepage": "https://github.com/Maxim1905/MERN#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.3",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.4"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.6"
+  }
+}
