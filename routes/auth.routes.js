@@ -50,9 +50,6 @@ router.post(
       // дожидаемся сохранения в БД и возврашаем статус успешного создания
       await user.save();
 
-      // тут еще работает
-      console.log("user;", user);
-
       response.status(201).json({ message: "Пользователь создан" });
     } catch (error) {
       response
