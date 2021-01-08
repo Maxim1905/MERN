@@ -13,7 +13,7 @@ export const Navbar = () => {
 
   return (
     <nav>
-      <div class="nav-wrapper">
+      <div class="nav-wrapper" style={{ background: "red" }}>
         <span class="brand-logo">Сокращение ссылок</span>
 
         <ul id="nav-mobile" class="right hide-on-med-and-down">
