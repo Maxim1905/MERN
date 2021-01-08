@@ -13,7 +13,7 @@ export const Navbar = () => {
 
   return (
     <nav>
-      <div class="nav-wrapper" style={{ background: "red" }}>
+      <div class="nav-wrapper">
         <span class="brand-logo">Сокращение ссылок</span>
 
         <ul id="nav-mobile" class="right hide-on-med-and-down">
@@ -27,7 +27,7 @@ export const Navbar = () => {
 
           <li>
             <a
-              class="waves-effect waves-light btn"
+              class="waves-effect waves-light btn pink darken-3"
               href="/"
               onClick={logoutHandler}
             >
